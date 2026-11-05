@@ -1,0 +1,12 @@
+name = "pizza-inn-dashboard"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./public"
+run_worker_first = ["/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "marketing-dashboard"
+database_id = "REPLACE_WITH_YOUR_D1_ID"
