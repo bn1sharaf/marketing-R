@@ -9,4 +9,4 @@ run_worker_first = ["/api/*"]
 [[d1_databases]]
 binding = "DB"
 database_name = "marketing-dashboard"
-database_id = "REPLACE_WITH_YOUR_D1_ID"
+database_id = "c6b70315-7b60-4505-a5de-65a00cb67add"
